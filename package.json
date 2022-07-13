@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "set=TAILWIND_MODE=WATCH&postcss tailwind.css -o ./layouts/css/styles.css --watch --verbose",
-    "prod": "set=NODE_ENV=production&postcss tailwind.css -o ./layouts/css/styles.css"
+    "dev": "set=TAILWIND_MODE=WATCH&postcss tailwind.css -o ./docs/css/styles.css --watch --verbose",
+    "prod": "set=NODE_ENV=production&postcss tailwind.css -o ./docs/css/styles.css"
   },
   "keywords": [],
   "author": "",
